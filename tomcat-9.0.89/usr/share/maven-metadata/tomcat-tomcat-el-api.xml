@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://fedorahosted.org/xmvn/METADATA/3.2.0">
+  <uuid>74ea15b5-be4b-4d45-b625-7c86752de98c</uuid>
+  <artifacts>
+    <artifact>
+      <groupId>org.apache.tomcat</groupId>
+      <artifactId>tomcat-el-api</artifactId>
+      <extension>pom</extension>
+      <version>9.0.89</version>
+      <path>/usr/share/maven-poms/tomcat/tomcat-el-api.pom</path>
+      <uuid>e3a0b667-cb0c-4da0-97f0-ae050f3b3518</uuid>
+      <aliases>
+        <alias>
+          <groupId>org.eclipse.jetty.orbit</groupId>
+          <artifactId>javax.el</artifactId>
+          <extension>pom</extension>
+        </alias>
+      </aliases>
+    </artifact>
+    <artifact>
+      <groupId>org.apache.tomcat</groupId>
+      <artifactId>tomcat-el-api</artifactId>
+      <version>9.0.89</version>
+      <path>/usr/share/java/tomcat/tomcat-el-api.jar</path>
+      <uuid>d7b5905b-4746-4cc4-bf28-47d2a6e314bf</uuid>
+      <aliases>
+        <alias>
+          <groupId>org.eclipse.jetty.orbit</groupId>
+          <artifactId>javax.el</artifactId>
+        </alias>
+      </aliases>
+    </artifact>
+  </artifacts>
+</metadata>

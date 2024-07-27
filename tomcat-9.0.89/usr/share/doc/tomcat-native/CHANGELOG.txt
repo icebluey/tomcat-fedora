@@ -1,0 +1,30 @@
+  Preface
+
+   This is the Changelog for Tomcat Native 1.3.x. The Tomcat Native 1.3.x
+   branch started from the 1.2.39 tag.
+
+  Changes in 1.3.0
+
+     * Update: Drop useless compile.optimize option. (michaelo)
+     * Update: Align Java source compile configuration with Tomcat.
+       (michaelo)
+     * Fix: Fix version set in DLL header on Windows. (michaelo)
+     * Update: Remove an unreachable if condition around CRLs in
+       sslcontext.c. (michaelo)
+     * Fix: 67818: When calling SSL.setVerify() or SSLContext.setVerify(),
+       the default verify paths are no longer set. Only the explicitly
+       configured trust store, if any, will be used. (michaelo)
+     * Update: Update the minimum supported version of LibreSSL to 3.5.2.
+       (markt)
+     * Design: Remove NPN support as NPN was never standardised and browser
+       support was removed in 2019. (markt)
+
+  Changes in 1.2.x
+
+   Please see the 1.2.x changelog.
+
+  Changes in 1.1.x
+
+   Please see the 1.1.x changelog.
+
+   Copyright © 2008-2024, The Apache Software Foundation

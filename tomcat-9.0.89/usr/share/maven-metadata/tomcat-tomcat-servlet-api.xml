@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://fedorahosted.org/xmvn/METADATA/3.2.0">
+  <uuid>05cc2945-5aa3-4b77-b25b-075f37b8605f</uuid>
+  <artifacts>
+    <artifact>
+      <groupId>org.apache.tomcat</groupId>
+      <artifactId>tomcat-servlet-api</artifactId>
+      <extension>pom</extension>
+      <version>9.0.89</version>
+      <path>/usr/share/maven-poms/tomcat/tomcat-servlet-api.pom</path>
+      <uuid>333ead12-abc8-4ea0-b2cb-9afea9dc4196</uuid>
+    </artifact>
+    <artifact>
+      <groupId>org.apache.tomcat</groupId>
+      <artifactId>tomcat-servlet-api</artifactId>
+      <version>9.0.89</version>
+      <path>/usr/share/java/tomcat/tomcat-servlet-api.jar</path>
+      <uuid>e1fac603-27a8-4d5f-8936-08991379f8d2</uuid>
+    </artifact>
+  </artifacts>
+</metadata>
